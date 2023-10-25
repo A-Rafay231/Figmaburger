@@ -1,0 +1,553 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+img{
+    display: inline-flex;
+    width: 95px;
+    position: absolute;
+    top: 40px;
+    left: 90px;
+}
+/* img{
+    height: 48px;
+    position: relative;
+    top: 30px;
+    border: 1px solid #323232;
+} */
+.head {
+    position: absolute;
+    top: 40px;
+    left: 250px;
+   font-size: 32px;
+   color: #323232;
+}
+.Order{
+    font-family: Playfair Display;
+}
+.Para {
+    position: absolute;
+    top: 40px;
+    font-size: 20px;
+    color: #323232;
+    font-family: Cinzel;
+}
+.search{
+    flex-shrink: 0;
+    position: absolute;
+    top: 50px;
+    left: 520px;
+    border-radius: 1px;
+}
+input{
+    width: 233px;
+    height: 45px;
+    position: absolute;
+    top: 4px;
+    left: 20px;
+    font-size: 15px;
+    padding: 0 1rem;
+}
+.GOO img{
+    width: 70px;
+    height: 48px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 55px;
+    left: 830px;
+    cursor: pointer;
+}
+.burger1 img{
+    width: 58px;
+    height: 58px;
+    position: absolute;
+    top:170px;
+    left: 100px;
+    border: 1px solid #323232; 
+    cursor: pointer
+}
+.burger1 p {
+    position: absolute;
+    top: 240px;
+    left: 110px;
+    font-family: Playfair Display;
+}
+.burger2 img{
+    width: 58px;
+    height: 58px;
+    position: absolute;
+    top: 170px;
+    left: 200px; 
+    border: 1px solid #323232; 
+    cursor: pointer;
+}
+.burger2 p {
+    position: absolute;
+    top: 240px;
+    left: 210px;
+    font-family: Playfair Display;
+}
+.burger3 img{
+    width: 58px;
+    height: 58px;
+    position: absolute;
+    top: 170px;
+    left: 300px;
+    border: 1px solid #323232; 
+    cursor: pointer;
+}
+.burger3 p {
+    position: absolute;
+    top: 240px;
+    left: 310px;
+    font-family: Playfair Display;
+}
+.burger4 img{
+    width: 58px;
+    height: 58px;
+    position: absolute;
+    top: 170px;
+    left: 400px; 
+    border: 1px solid #323232; 
+    cursor: pointer;
+}
+.burger4 p {
+    position: absolute;
+    top: 240px;
+    left: 410px;
+    font-family: Playfair Display;
+}
+.burger5 img{
+    width: 58px;
+    height: 58px;
+    position: absolute;
+    top: 170px;
+    left: 500px; 
+    border: 1px solid #323232; 
+    cursor: pointer;
+}
+.burger5 p {
+    position: absolute;
+    top: 240px;
+    left: 510px;
+    font-family: Playfair Display;
+}
+.burger6 img{
+    width: 58px;
+    height: 58px;
+    position: absolute;
+    top: 170px;
+    left: 600px; 
+    border: 1px solid #323232; 
+    cursor: pointer;
+}
+.burger6 p {
+    position: absolute;
+    top: 240px;
+    left: 610px;
+    font-family: Playfair Display;
+}
+.burger7 img{
+    width: 58px;
+    height: 58px;
+    position: absolute;
+    top: 170px;
+    left: 700px; 
+    border: 1px solid #323232; 
+    cursor: pointer;
+}
+.burger7 p {
+    position: absolute;
+    top: 240px;
+    left: 710px;
+    font-family: Playfair Display;
+}
+.burger8 img{
+    width: 58px;
+    height: 58px;
+    position: absolute;
+    top: 170px;
+    left: 800px; 
+    border: 1px solid #323232; 
+    cursor: pointer;
+}
+.burger8 p {
+    position: absolute;
+    top: 240px;
+    left: 810px;
+    font-family: Playfair Display;
+}
+.view p{
+    position: absolute;
+    top: 173px;
+    left: 906px;
+    font-weight: 400;
+    font-size: 28px;    
+    align-items: center;
+    font-family: Playfair Display;
+    cursor: pointer;
+}
+.special p{
+    /* width: 141px;
+    height: 20px; */
+    position: absolute;
+    top: 300px;
+    left: 100px;
+    font-weight: 400;
+    font-size: 24px;
+    font-family: Playfair Display;
+}
+.Zinger1 img{
+    width: 192px;
+    height: 154px;
+    position: absolute;
+    top: 350px;
+    cursor: pointer;
+}
+.Zinger1 p{
+    font-family: Playfair Display;
+    font-weight: 500;
+    font-size: 20px;
+    position: absolute;
+    top: 520px;
+    left: 120px;
+}
+.Zinger1 span{
+    width: 218px;
+    height: 34px;
+    position: absolute;
+    top: 550px;
+    left: 100px;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: Cinzel; 
+}
+.Zinger1 label{
+    width: 47px;
+    height: 32px;
+    position: absolute;
+    top: 600px;
+    left: 150px;
+    font-family: Post No Bills Colombo ExtraBold;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 32px;
+    color: #A5CC35;
+}
+.Zinger1 h4{
+    width: 15px;
+    height: 11px;
+    position: absolute;
+    top: 610px;
+    left: 200px;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+    font-family: Playfair Display;
+}
+.Zinger2 img{
+    width: 192px;
+    height: 154px;
+    position: absolute;
+    top: 350px;
+    left: 350px;
+    cursor: pointer;
+}
+.Zinger2 p{
+    font-family: Playfair Display;
+    font-weight: 500;
+    font-size: 20px;
+    position: absolute;
+    top: 520px;
+    left: 390px;
+}
+.Zinger2 span{
+   width: 218px;
+   height: 34px;
+   position: absolute;
+   top: 550px;
+   left: 370px;
+   font-weight: 400px;
+   font-size: 15px;
+   font-family: Cinzel; 
+}
+.Zinger2 label{
+    width: 48px;
+    height: 32px;
+    position: absolute;
+    top: 600px;
+    left: 420px;
+    font-family: Post No Bills Colombo ExtraBold;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 32px;
+    color: #A5CC35;
+}
+.Zinger2 h4{
+    width: 15px;
+    height: 11px;
+    position: absolute;
+    top: 610px;
+    left: 470px;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+    font-family: Playfair Display;
+}
+.Zinger3 img{
+    width: 192px;
+    height: 154px;
+    position: absolute;
+    top: 350px;
+    left: 600px;
+    cursor: pointer;
+}
+.Zinger3 p{
+    font-family: Playfair Display;
+    font-weight: 500;
+    font-size: 20px;
+    position: absolute;
+    top: 520px;
+    left: 650px;
+}
+.Zinger3 span{
+    width: 210px;
+    height: 51px;
+    position: absolute;
+    top: 550px;
+    left: 610px;
+    font-weight: 400px;
+    font-size: 13.1px;
+    font-family: Cinzel; 
+}
+.Zinger3 label{
+    width: 47px;
+    height: 32px;
+    position: absolute;
+    top: 600px;
+    left: 670px;
+    font-family: Post No Bills Colombo ExtraBold;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 32px;
+    color: #A5CC35;
+}
+.Zinger3 h4{
+    width: 15px;
+    height: 11px;
+    position: absolute;
+    top: 610px;
+    left: 720px;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+    font-family: Playfair Display;
+}
+.burger.z img{
+    width: 192px;
+    height: 154px;
+    position: absolute;
+    top: 660px;
+    left: 80px;
+    cursor: pointer;
+}
+.burger.z p{
+    font-family: Playfair Display;
+    font-weight: 500;
+    font-size: 20px;
+    position: absolute;
+    top: 830px;
+    left: 120px;
+}
+.burger.z span{
+    width: 218px;
+    height: 34px;
+    position: absolute;
+    top: 860px;
+    left: 100px;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: Cinzel; 
+}
+.burger.z label{
+    width: 47px;
+    height: 32px;
+    position: absolute;
+    top: 910px;
+    left: 150px;
+    font-family: Post No Bills Colombo ExtraBold;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 32px;
+    color: #A5CC35;
+}
+.burger.z h4{
+    width: 15px;
+    height: 11px;
+    position: absolute;
+    top: 920px;
+    left: 200px;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+    font-family: Playfair Display;
+}
+.burger.x img{
+    width: 192px;
+    height: 154px;
+    position: absolute;
+    top: 660px;
+    left: 350px;
+    cursor: pointer;
+}
+.burger.x p{
+    font-family: Playfair Display;
+    font-weight: 500;
+    font-size: 20px;
+    position: absolute;
+    top: 830px;
+    left: 390px;
+}
+.burger.x span{
+    width: 218px;
+    height: 34px;
+    position: absolute;
+    top: 860px;
+    left: 370px;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: Cinzel; 
+}
+.burger.x label{
+    width: 47px;
+    height: 32px;
+    position: absolute;
+    top: 910px;
+    left: 420px;
+    font-family: Post No Bills Colombo ExtraBold;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 32px;
+    color: #A5CC35;
+}
+.burger.x h4{
+    width: 15px;
+    height: 11px;
+    position: absolute;
+    top: 920px;
+    left: 470px;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+    font-family: Playfair Display;
+}
+.burger.v img{
+    width: 192px;
+    height: 154px;
+    position: absolute;
+    top: 660px;
+    left: 600px;
+    cursor: pointer;
+}
+.burger.v p{
+    font-family: Playfair Display;
+    font-weight: 500;
+    font-size: 20px;
+    position: absolute;
+    top: 830px;
+    left: 650px;
+}
+.burger.v span{
+    width: 210px;
+    height: 51px;
+    position: absolute;
+    top: 860px;
+    left: 610px;
+    font-weight: 400;
+    font-size: 13.1px;
+    font-family: Cinzel; 
+}
+.burger.v label{
+    width: 47px;
+    height: 32px;
+    position: absolute;
+    top: 910px;
+    left: 670px;
+    font-family: Post No Bills Colombo ExtraBold;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 32px;
+    color: #A5CC35;
+}
+.burger.v h4{
+    width: 15px;
+    height: 11px;
+    position: absolute;
+    top: 920px;
+    left: 720px;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+    font-family: Playfair Display;
+}
+.GLS p{
+    width: 300px;
+    height: 14px;
+    position: absolute;
+    top: 60px;
+    left: 990px;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 14px;
+    font-family: Cinzel;
+    color: #323232;
+}
+.GLS span{
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 100px;
+    left: 1000px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    font-family: Cinzel;
+    color: #323232;
+}
+.GLS label{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 100px;
+    left: 1055px;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 16px;
+    font-family: Post No Bills Colombo ExtraBold;
+    color: #323232;
+}
+.GLS h4{
+    width: 200px;
+    height: 16px;
+    position: absolute;
+    top: 100px;
+    left: 1078px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    font-family: Cinzel;
+}
+.icon img{
+    display: flex;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: 61px;
+    left: 1261px;
+    color: #323232;
+    cursor: pointer;
+}
